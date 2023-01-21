@@ -237,10 +237,10 @@ CREATE TABLE documents
 /* Insert values into the table */
 INSERT INTO documents (title, content, author) 
 	VALUES ('Rich Dad Poor Dad', 'Financial Education', 'Robert Kiyosaki'),
-		   ('Cashflow Quadrant', 'Guide to financial freedom', 'Robert Kiyosaki'),
-		   ('Coding for Life', 'Learning to code within 100 days', 'Jackie Draper'),
-           ('Time Management', 'Things I am Afraid Of', 'Paul Asamoah'),
-           ('Python for Backend', 'How to use Python for backend', 'Jackie Draper');
+	       ('Cashflow Quadrant', 'Guide to financial freedom', 'Robert Kiyosaki'),
+	       ('Coding for Life', 'Learning to code within 100 days', 'Jackie Draper'),
+               ('Time Management', 'Things I am Afraid Of', 'Paul Asamoah'),
+               ('Python for Backend', 'How to use Python for backend', 'Jackie Draper');
 
 /* Query the document table */
 SELECT * 
@@ -284,8 +284,8 @@ CREATE TABLE clothes
 /* Insert values into the table */
 INSERT INTO clothes (type, design)
 	VALUES ('Jacket', 'Burberry'), 
-		   ('Sleeve', 'Sam Sheikh'), 
-		   ('Dress', 'Oscar de la');
+	       ('Sleeve', 'Sam Sheikh'), 
+	       ('Dress', 'Oscar de la');
 
 /* Query clothes table */
 SELECT * 
