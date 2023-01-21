@@ -60,7 +60,7 @@ INSERT INTO friends (person1_id, person2_id)
 INSERT INTO friends (person1_id, person2_id)
     VALUES (2, 3);
  
-
+ 
 /*
 ● We've created a database of people and hobbies, and each row in hobbies is related to a
 row in persons via the person_id column. In this first step, insert one more row in persons
@@ -136,7 +136,8 @@ INSERT INTO orders (customer_id, item, price)
 	VALUES (2, 'High Quality Broomstick', 40.00);
 INSERT INTO orders (customer_id, item, price)
 	VALUES (1, 'TARDIS', 1000000.00);
- 
+
+
  /*
  We've created a database for customers and their orders. Not all of the customers have
 made orders, however. Come up with a query that lists the name and email of every
