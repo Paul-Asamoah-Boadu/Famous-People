@@ -1,4 +1,5 @@
-# Famous-People
+<h1>Famous-People</h1>
+
 This project sought to test the understanding of all the JOINS available in SQL as well as altering and updating a table. 
 The JOINS used in this project include; 
 - self join, 
