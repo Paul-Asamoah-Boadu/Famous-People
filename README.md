@@ -186,3 +186,10 @@ The JOINS used in this project include:
 </table>
     
 </center>
+
+<h2>Requirements</h2>
+
+To run this project, you need to have the following installed on your machine:
+
+- PostgreSQL database
+- An SQL client or PostgreSQL command line interface (CLI)
