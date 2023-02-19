@@ -116,7 +116,7 @@ The JOINS used in this project include:
     
 </center>
 
-<h3>Customer</h3>
+<h3>Customers</h3>
 
 <center>
     
@@ -136,12 +136,50 @@ The JOINS used in this project include:
       </tr>
       <tr>
          <td>name</td>
-         <td>VERCHAR(20)</td>
+         <td>VARCHAR(20)</td>
          <td>NOT NULL</td>
       </tr>
       <tr>
          <td>email</td>
          <td>TEXT</td>
+         <td>NOT NULL</td>
+      </tr>
+   </tbody>
+</table>
+    
+</center>
+
+<h3>Orders</h3>
+
+<center>
+    
+<table style="margin: 0 auto;">
+   <thead>
+      <tr>
+          <th>Column</th>
+         <th>Type</th>
+         <th>Constraints</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>id</td>
+         <td>SERIAL</td>
+         <td>PRIMARY KEY</td>
+      </tr>
+      <tr>
+         <td>customer_id</td>
+         <td>INTEGER</td>
+         <td>NOT NULL</td>
+      </tr>
+      <tr>
+         <td>item</td>
+         <td>TEXT</td>
+         <td>NOT NULL</td>
+      </tr>
+      <tr>
+         <td>price</td>
+         <td>REAL</td>
          <td>NOT NULL</td>
       </tr>
    </tbody>
