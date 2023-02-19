@@ -49,3 +49,36 @@ The JOINS used in this project include:
 </table>
     
 </center>
+
+<h3>Hobbies</h3>
+
+<center>
+    
+<table style="margin: 0 auto;">
+   <thead>
+      <tr>
+          <th>Column</th>
+         <th>Type</th>
+         <th>Constraints</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>id</td>
+         <td>SERIAL</td>
+         <td>PRIMARY KEY</td>
+      </tr>
+      <tr>
+         <td>person_id</td>
+         <td>INTEGER</td>
+         <td>NOT NULL</td>
+      </tr>
+      <tr>
+         <td>game</td>
+         <td>VARCHAR(20)</td>
+         <td>NOT NULL</td>
+      </tr>
+   </tbody>
+</table>
+    
+</center>
