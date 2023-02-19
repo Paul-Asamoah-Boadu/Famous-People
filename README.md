@@ -82,3 +82,69 @@ The JOINS used in this project include:
 </table>
     
 </center>
+
+<h3>Friends</h3>
+
+<center>
+    
+<table style="margin: 0 auto;">
+   <thead>
+      <tr>
+          <th>Column</th>
+         <th>Type</th>
+         <th>Constraints</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>id</td>
+         <td>SERIAL</td>
+         <td>PRIMARY KEY</td>
+      </tr>
+      <tr>
+         <td>person1_id</td>
+         <td>INTEGER</td>
+         <td>NOT NULL</td>
+      </tr>
+      <tr>
+         <td>person2_id</td>
+         <td>INTEGER</td>
+         <td>NOT NULL</td>
+      </tr>
+   </tbody>
+</table>
+    
+</center>
+
+<h3>Customer</h3>
+
+<center>
+    
+<table style="margin: 0 auto;">
+   <thead>
+      <tr>
+          <th>Column</th>
+         <th>Type</th>
+         <th>Constraints</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>id</td>
+         <td>SERIAL</td>
+         <td>PRIMARY KEY</td>
+      </tr>
+      <tr>
+         <td>name</td>
+         <td>VERCHAR(20)</td>
+         <td>NOT NULL</td>
+      </tr>
+      <tr>
+         <td>email</td>
+         <td>TEXT</td>
+         <td>NOT NULL</td>
+      </tr>
+   </tbody>
+</table>
+    
+</center>
