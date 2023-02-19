@@ -14,3 +14,7 @@ The JOINS used in this project include:
 - `left outer join`
 - `inner join`
 - `full join`
+
+<h2>Schema</h2>
+
+<h3>Persons</h3>
