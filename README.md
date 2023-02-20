@@ -193,3 +193,7 @@ To run this project, you need to have the following installed on your machine:
 
 - PostgreSQL database
 - An SQL client or PostgreSQL command line interface (CLI)
+
+<h2>Usage</h2>
+
+The following SQL queries can be used to query the tables:
