@@ -197,6 +197,8 @@ To run this project, you need to have the following installed on your machine:
 <h2>Usage</h2>
 
 The following SQL queries can be used to query the tables:
-- Retrieving all the data from the `persons`, `hobbies`, `friends`, `customers`, and `orders` tables respectively.
-- Retrieving data from both `persons` and `hobbies` tables, joining them on the `person_id` field to show each person's name and their hobbies.
-- Retrieving data for the `name` and `hobbies` of a specific person with age 12.
+- Quering all the data from the `persons`, `hobbies`, `friends`, `customers`, and `orders` tables respectively.
+- Quering data from both `persons` and `hobbies` tables, joining them on the `person_id` field to show each person's name and their hobbies.
+- Quering data for the name and hobbies of a specific person with age 12.
+- Quering data for each friend's name with their corresponding friend's name.
+- Quering data for all customers and their orders. Use a left outer join to include customers that have made no orders.
