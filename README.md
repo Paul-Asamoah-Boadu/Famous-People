@@ -202,3 +202,4 @@ The following SQL queries can be used to query the tables:
 - Quering data for the name and hobbies of a specific person with age 12.
 - Quering data for each friend's name with their corresponding friend's name.
 - Quering data for all customers and their orders. Use a left outer join to include customers that have made no orders.
+- Quering the name, email, and total amount spent by each customer in the `orders` table. The results are sorted in descending order according to the total amount spent.
