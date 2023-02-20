@@ -203,3 +203,7 @@ The following SQL queries can be used to query the tables:
 - Quering data for each friend's name with their corresponding friend's name.
 - Quering data for all customers and their orders. Use a left outer join to include customers that have made no orders.
 - Quering the name, email, and total amount spent by each customer in the `orders` table. The results are sorted in descending order according to the total amount spent.
+
+<h2>Project Recommendation</h2>
+
+This project is a great opportunity for anyone looking to learn about database design and SQL. Whether you're a beginner or an experienced database administrator, you will find this project both challenging and rewarding. With a comprehensive design and well-documented code, this project is easy to understand and customize to your needs.
