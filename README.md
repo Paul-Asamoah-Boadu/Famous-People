@@ -199,4 +199,4 @@ To run this project, you need to have the following installed on your machine:
 The following SQL queries can be used to query the tables:
 - Retrieving all the data from the `persons`, `hobbies`, `friends`, `customers`, and `orders` tables respectively.
 - Retrieving data from both `persons` and `hobbies` tables, joining them on the `person_id` field to show each person's name and their hobbies.
-- 
+- Retrieving data for the `name` and `hobbies` of a specific person with age 12.
